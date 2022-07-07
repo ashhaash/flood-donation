@@ -1,6 +1,9 @@
 body {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
     padding: 0;
-    margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -53,12 +56,15 @@ body {
     font-weight: bold;
     font-size: 20px;
     padding-bottom: 50px;
+    color: lightslategray;
+
 }
 
 .donate-amounts {
     display: flex;
     justify-content: center;
     padding-bottom: 50px;
+    color: lightslategray;
 }
 
 .donate-amount {
@@ -67,11 +73,13 @@ body {
     margin-right: 40px;
     border: 1px solid gray;
     border-radius: 5px;
+    color: lightslategray;
 }
 
 .donate-amount h2 {
     text-align: center;
     padding-top: 10px;
+    color: lightslategray;
 }
 
 .donate-orange {
@@ -91,6 +99,8 @@ body {
     padding-bottom: 10px;
     border-bottom: 1px solid gray;
     margin-bottom: 30px;
+    color: lightslategray;
+
 }
 
 .donate-form a {
@@ -113,6 +123,10 @@ body {
 
 .plan-title h2 {
     font-size: 40px;
+}
+
+.plan-title p {
+    color: lightslategray;
 }
 
 .plan-items {
@@ -159,6 +173,11 @@ body {
 
 .update h2 {
     font-size: 40px;
+}
+
+.update p {
+    color: lightslategray;
+
 }
 
 .update-form {
